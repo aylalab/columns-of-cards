@@ -1,0 +1,23 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-family: "Open Sans", sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.background {
+  background-color: #f2f2f2;
+}
+
+h1 {
+  font-size: 2rem;
+  text-decoration: bold;
+  text-align: center;
+}
+
+a {
+
+}
