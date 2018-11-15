@@ -8,47 +8,99 @@ html {
   box-sizing: inherit;
 }
 
-.background {
-  background-color: #f2f2f2;
-}
-
 h1 {
+  display: block;
   font-size: 2rem;
-  text-decoration: bold;
   text-align: center;
+  margin: 0;
+  padding: 1.5rem;
 }
 
-a {
+.btn {
+  display: inline-block;
+  padding: .5em .85em;
+  text-decoration: none;
+  font-size: 1.125rem;
+  border-radius: 8px;
+  margin: 1.5rem 1rem 1rem;
+}
+
+.btn-small {
+  font-size: .875rem;
+}
+
+.btn:hover {
+  background-color: #000;
+}
+
+.primary {
   display: inline-block;
   background-color: #333;
   color: #fff;
-  border-radius: 4px;
-  font-size: .875rem;
-  text-decoration: none;
-  padding: .2em .5em .3em;
-  margin: 0 auto 1.5rem;
-}
-
-a:hover {
-  background-color: #000;
 }
 
 .tabatha {
   background-color: #e2e2e2;
+  border-left: 1px solid #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 img {
-  width: 25%;
+  display: block;
+  width: 100%;
 }
 
 .thomas {
   background-color: #ccc;
+  border-left: 1px solid #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .hana {
   background-color: #aaa;
+  border-left: 1px solid #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .felicity {
   background-color: #999;
+  border-left: 1px solid #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.row img {
+  width: 100px;
+  margin: 0 auto 1.5rem;
+}
+
+body {
+  margin: 0;
+  background-color: #f2f2f2;
+}
+
+h2 {
+  font-size: 1rem;
+  margin: 1rem 1rem 0 1rem;
+}
+
+p, i {
+  font-size: .875rem;
+  margin: 0 1rem;
+}
+
+p {
+  flex-grow: 1;
 }
